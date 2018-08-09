@@ -1,0 +1,44 @@
+This parser/generator uses the bro ascii log generators to produce a resource that is fit for consumption 
+by the namedfields module.
+
+We mostly parse files in the following folders, its a good idea to just copy the files to a temp dir:
+
+for example:
+mkdir /tmp/bros; find scripts/ | grep main.bro | grep -v frameworks | xargs -I {} dirname {} | xargs -I {} cp -r {} /tmp/bros
+
+
+scripts/base/protocols/radius/main.bro
+scripts/base/protocols/xmpp/main.bro
+scripts/base/protocols/krb/main.bro
+scripts/base/protocols/http/main.bro
+scripts/base/protocols/sip/main.bro
+scripts/base/protocols/dnp3/main.bro
+scripts/base/protocols/syslog/main.bro
+scripts/base/protocols/irc/main.bro
+scripts/base/protocols/ftp/main.bro
+scripts/base/protocols/rfb/main.bro
+scripts/base/protocols/ssl/main.bro
+scripts/base/protocols/ssh/main.bro
+scripts/base/protocols/modbus/main.bro
+scripts/base/protocols/smtp/main.bro
+scripts/base/protocols/dns/main.bro
+scripts/base/protocols/rdp/main.bro
+scripts/base/protocols/socks/main.bro
+scripts/base/protocols/dhcp/main.bro
+scripts/base/protocols/mysql/main.bro
+scripts/base/protocols/imap/main.bro
+scripts/base/protocols/snmp/main.bro
+scripts/base/protocols/dce-rpc/main.bro
+scripts/base/protocols/ntlm/main.bro
+scripts/base/protocols/conn/main.bro
+scripts/base/files/pe/main.bro
+scripts/base/files/unified2/main.bro
+scripts/base/files/hash/main.bro
+scripts/base/files/x509/main.bro
+scripts/base/files/extract/main.bro
+scripts/policy/protocols/smb/smb1-main.bro
+scripts/policy/protocols/smb/smb2-main.bro
+scripts/policy/protocols/smb/main.bro
+scripts/policy/misc/detect-traceroute/main.bro
+scripts/policy/integration/collective-intel/main.bro
+scripts/policy/integration/barnyard2/main.bro
