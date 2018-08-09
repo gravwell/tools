@@ -27,4 +27,6 @@ You will need to download a copy of the bro source tree that matches your runnin
 ```go get -u github.com/gravwell/tools/brotools/namedfields```
 
 ### Usage
+```
 namedfields -o /tmp/namedfields.json /tmp/bro-2.5.4/scripts/
+```
