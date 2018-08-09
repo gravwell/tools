@@ -4,7 +4,7 @@ Collection of tools that do interesting things with Gravwell
 To get started with Gravwell visit https://www.gravwell.io/community-edition
 
 ## Sentiment Training and Testing
-A simple application that can generate a resource for the Gravwell sentiment search module to perform sentiment analysis using Bayes esitmator
+A simple application that can generate a resource for the Gravwell sentiment search module to perform sentiment analysis using Bayes estimator
 
 ### Installation
 go get -u github.com/gravwell/tools/sentiment/trainer
